@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <title>API Random</title>
+</head>
+<body>
+    <header>
+        <section id="select">
+
+            <select name="genero" id="gender" >
+                <option value="inicial"></option>
+                <option value="woman" id="female">mujer</option>
+                <option value="men" id="male">hombre</option>
+            </select>
+
+            <button type="reset" id="buscar">Buscar</button>
+        </section>
+    </header>
+
+    <main class="content-main">
+        
+    </main>
+
+    <template id="template-card">
+        <article class="card">
+            <div class="header">
+                <img src="img/fondo-blanco-gris-brillante-lineas-onduladas_1017-25101.webp" alt="fondo blanco" id="img-header">
+            </div>
+            <div class="img-header">
+                <img src="img/46.jpg" alt="img" class="img-card">
+            </div>
+            <div class="content-card">
+                <div class="content">
+                    <i class="fa-regular fa-user fa-2x"></i>
+                    <h3 class="name">Mi nombre es: <span id="name">lorem</span></h3>
+                </div>
+                <div class="content">
+                    <i class="fa-regular fa-envelope fa-2x"></i>
+                    <h3 class="mail"> Mi correo es: <span id="mail">lorem</span></h3>
+                </div>
+                <div class="content">
+                    <i class="fa-regular fa-calendar fa-2x"></i>
+                    <h3 class="cumple">Mi cumpleaño es: <span id="cumple">lorem</span></h3>
+                </div>
+                <div class="content">
+                    <i class="fa-regular fa-map fa-2x"></i>
+                    <h3 class="map">Mi direccion es : <span id="map">lorem</span></h3>
+                </div>
+                <div class="content">
+                    <i class="fa-solid fa-mobile-screen fa-2x"></i>
+                    <h3 class="phone">Mi telefono es: <span id="phone">lorem</span></h3>
+                </div>
+                <div class="content">
+                    <i class="fa-solid fa-lock fa-2x"></i>
+                    <h3 class="phone">Mi contraseña es: <span id="password">lorem</span></h3>
+                </div>
+            </div>
+        </article>
+    </template>
+
+</body>
+<script src="https://kit.fontawesome.com/fa5753174f.js" crossorigin="anonymous"></script>
+<script src="js/app.js"></script>
+</html>
